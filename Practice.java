@@ -1,6 +1,6 @@
 package practice;
 
-class Node{
+class Node{                                      // Node Class
     int data;
     Node next;
     Node(int data){
@@ -9,7 +9,7 @@ class Node{
     }
 }
 
-class MyLinkedList{
+class MyLinkedList{                              // Linked List Implementation
     Node head;
 
     public void add(int data){
@@ -72,7 +72,7 @@ class MyLinkedList{
     }
 }
 
-class MyStack{
+class MyStack{                                                   //Stack implementaion
     MyLinkedList stack = new MyLinkedList();
 
     public void push(int data){
@@ -96,7 +96,7 @@ public void display(){
 
 }
 
-public class Practice {
+public class Practice {                                          //Main Class
     public static void main(String[] args) throws Exception{
         MyStack s = new MyStack();
 
